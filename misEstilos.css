@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+header {
+    background-color: aqua;
+    color: black;
+    font-family:'Italianno', cursive;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+body{
+    background-color: black;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Info {
+    background-image: url(../TurismoNic/Recursos/Imagenes/1.jpg); 
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Info p {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.slider {
+    width:95% ;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.slider ul {
+    display: flex;
+    padding: 0%;
+    width: 400%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider image {
+    width: 100%;
+}
+@keyframes cambio {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+#Opciones {
+    background-color: aqua;
+}
+#Opciones ol {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#Opciones ol li {
+  display: block;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+    font-family: 'Italianno', cursive;
+    font-size: 30px;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size:xx-large;
+    color:orange;
+}
+
+.Estilo1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: rgb(221, 58, 99);
+}
+
+.Estilo2 {
+    font-family: cursive;
+    font-size: medium;
+    color: blueviolet;
+}
+
+.Estilo3 {
+    font-family: 'Italianno', cursive ;
+    font-size: 25px;
+    color: lightseagreen;
+    padding-left: 5%;
+}
+
+.Parrafos {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Fotos {
+    padding-left: 25%;
+}
